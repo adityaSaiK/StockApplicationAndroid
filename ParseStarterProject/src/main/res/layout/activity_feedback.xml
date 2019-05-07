@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_feedback"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.parse.starter.Feedback"
+    android:layout_centerInParent="true">
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:id="@+id/button_toAddListToDatabase"
+        android:text="Send Feedback"
+        android:textAllCaps="false"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/home_btns"
+        android:onClick="sendFeed"
+        android:layout_below="@+id/datePicker"
+
+        android:layout_centerHorizontal="true"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:id="@+id/editText"
+        android:layout_height="wrap_content"
+        android:hint="Provide feedback here.... "
+        android:textColorHint="@android:color/white"
+        android:padding="10dp"
+        android:inputType="textVisiblePassword"
+        android:layout_below="@+id/textView"
+        android:layout_marginBottom="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add feedback:"
+        android:layout_marginTop="30dp"
+        android:textStyle="bold"
+        android:id="@+id/textView"
+        android:textSize="20sp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="10dp"/>
+
+    <ImageButton
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:scaleType="fitXY"
+        android:onClick="close"
+        android:id="@+id/imgbt"
+        android:src="@drawable/close"
+        android:layout_alignTop="@+id/textView"
+        android:layout_alignEnd="@+id/button_toAddListToDatabase"
+        android:background="@android:color/transparent"/>
+
+    <DatePicker
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:id="@+id/datePicker"
+        android:layout_below="@+id/editText"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="25dp"></DatePicker>
+
+</RelativeLayout>

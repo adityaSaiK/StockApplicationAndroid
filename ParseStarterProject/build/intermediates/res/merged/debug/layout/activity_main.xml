@@ -1,0 +1,78 @@
+<!--
+  ~ Copyright (c) 2015-present, Parse, LLC.
+  ~ All rights reserved.
+  ~
+  ~ This source code is licensed under the BSD-style license found in the
+  ~ LICENSE file in the root directory of this source tree. An additional grant
+  ~ of patent rights can be found in the PATENTS file in the same directory.
+  -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:context=".MainActivity"
+                android:id="@+id/layout"
+                android:background="@android:color/white">
+
+    <include android:id="@+id/toolbar" layout="@layout/app_bar"/>
+
+    <TextView
+        android:text="Click here to Sign Up"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2"
+        android:textSize="20sp"
+        android:typeface="serif"
+        android:layout_marginBottom="40dp"
+        android:textColor="@android:color/black"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:id="@+id/editTextName"
+        android:hint="Username"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/imageView3"
+        android:layout_alignParentStart="true"/>
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/app_icon"
+        android:id="@+id/imageView3"
+        android:layout_below="@+id/toolbar"
+        android:layout_alignStart="@+id/button"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/editTextPassword"
+        android:hint="Password"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="36dp"
+        android:layout_below="@+id/editTextName"
+        android:layout_alignParentStart="true"/>
+
+    <Button
+        android:text="Login"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/button"
+        android:background="@drawable/login_button_bkg"
+        android:onClick="signOrLog"
+        android:layout_above="@+id/textView2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="14dp"/>
+
+</RelativeLayout>
+<!-- From: file:/C:/Users/AFITYA/Documents/Stockapp/ParseStarterProject/src/main/res/layout/activity_main.xml -->

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\AFITYA\.gradle\caches\modules-2\files-2.1\com.parse\parse-android\1.13.1\5f645bf60e3b88ccc02bd2a4018c5e3ef2f77d0a\parse-android-1.13.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="5f645bf60e3b88ccc02bd2a4018c5e3ef2f77d0a">
+        <dex dex="C:\Users\AFITYA\Documents\Stockapp\ParseStarterProject\build\intermediates\pre-dexed\debug\parse-android-1.13.1-8fd48f3993d5cdfe219d1057fc572e7e8a155dec.jar" />
+    </item>
+    <item
+        jar="C:\Users\AFITYA\Documents\Stockapp\ParseStarterProject\build\intermediates\exploded-aar\com.android.support\design\22.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="1821601ddbec5ff125653097812823388700af74">
+        <dex dex="C:\Users\AFITYA\Documents\Stockapp\ParseStarterProject\build\intermediates\pre-dexed\debug\classes-f6f93685e5bfa370ee71df8abdbda52b806e2f0d.jar" />
+    </item>
+    <item
+        jar="C:\Users\AFITYA\Documents\Stockapp\ParseStarterProject\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="f8efd0096475e0daf054267b61544e10dc776503">
+        <dex dex="C:\Users\AFITYA\Documents\Stockapp\ParseStarterProject\build\intermediates\pre-dexed\debug\classes-4712fd57ae2a3e8ba9d256271d546344817eca9e.jar" />
+    </item>
+    <item
+        jar="H:\Stockapp\ParseStarterProject\build\intermediates\exploded-aar\com.android.support\design\22.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="1821601ddbec5ff125653097812823388700af74">
+        <dex dex="H:\Stockapp\ParseStarterProject\build\intermediates\pre-dexed\debug\classes-9090f3b45c78c8618afc2fc796f4feffe79bc4d5.jar" />
+    </item>
+    <item
+        jar="C:\Users\AFITYA\Documents\Stockapp\ParseStarterProject\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.1\jars\libs\internal_impl-22.2.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="c471eaaba13ff64f6e0383d1c30a9cdc9a97efeb">
+        <dex dex="C:\Users\AFITYA\Documents\Stockapp\ParseStarterProject\build\intermediates\pre-dexed\debug\internal_impl-22.2.1-9f84136265fd2355580be31afbbd2641dd7c3748.jar" />
+    </item>
+    <item
+        jar="C:\Users\AFITYA\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-tasks\1.4.0\d85884acf6810a3bbbecb587f239005cbc846dc4\bolts-tasks-1.4.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
+        <dex dex="C:\Users\AFITYA\Documents\Stockapp\ParseStarterProject\build\intermediates\pre-dexed\debug\bolts-tasks-1.4.0-325e6729d629b73543d319b0767919a324b49512.jar" />
+    </item>
+    <item
+        jar="C:\Users\AFITYA\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\22.2.1\support-annotations-22.2.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="61a0ff5c29295ec56d7e0bd3d25d95dbf71b4b2b">
+        <dex dex="H:\Stockapp\ParseStarterProject\build\intermediates\pre-dexed\debug\support-annotations-22.2.1-f115524d5bc429517efe9be4e1a28318a337bb11.jar" />
+    </item>
+    <item
+        jar="H:\Stockapp\ParseStarterProject\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="4486e953d1f35f8ccab098b1dd67146366d5f731">
+        <dex dex="H:\Stockapp\ParseStarterProject\build\intermediates\pre-dexed\debug\classes-09895697ea08df12b2be5b8eb45c00761b5bd0a6.jar" />
+    </item>
+    <item
+        jar="H:\Stockapp\ParseStarterProject\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.1\jars\libs\internal_impl-22.2.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="c471eaaba13ff64f6e0383d1c30a9cdc9a97efeb">
+        <dex dex="H:\Stockapp\ParseStarterProject\build\intermediates\pre-dexed\debug\internal_impl-22.2.1-e25111045dea9f3273e309a08f43f70e5dee4089.jar" />
+    </item>
+    <item
+        jar="C:\Users\AFITYA\Documents\Stockapp\ParseStarterProject\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="4486e953d1f35f8ccab098b1dd67146366d5f731">
+        <dex dex="C:\Users\AFITYA\Documents\Stockapp\ParseStarterProject\build\intermediates\pre-dexed\debug\classes-95fb9e693ebd6c0dfcd7f0b4f3508b2ca8e0cf26.jar" />
+    </item>
+    <item
+        jar="H:\Stockapp\ParseStarterProject\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="f8efd0096475e0daf054267b61544e10dc776503">
+        <dex dex="H:\Stockapp\ParseStarterProject\build\intermediates\pre-dexed\debug\classes-172c107965a144039389cee008a708391dd42330.jar" />
+    </item>
+
+</items>

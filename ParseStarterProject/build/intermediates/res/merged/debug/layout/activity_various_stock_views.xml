@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_various_stock_views"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.parse.starter.VariousStockViews"
+    android:background="@drawable/w"
+    >
+
+    <include android:id="@+id/toolbar" layout="@layout/app_bar"/>
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_weight="1"
+        android:id="@+id/lv"
+        android:listSelector="@drawable/single_row_selector"
+        android:padding="10dp"
+        android:dividerHeight="2dp"
+
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:hint="Enter the name of the company"
+        android:id="@+id/editText"
+        android:layout_weight="1"
+        />
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_marginBottom="5dp"
+        android:paddingTop="10dp">
+
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:text="Search "
+            android:background="@drawable/login_button_bkg"
+            android:onClick="searchStock"
+            android:id="@+id/vsbtn"
+            android:layout_alignParentTop="true"
+            android:layout_toStartOf="@+id/imageButton4"
+            android:layout_marginEnd="59dp"/>
+
+        <ImageButton
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@android:color/transparent"
+            android:scaleType="fitXY"
+            android:src="@drawable/showlist"
+            android:id="@+id/imageButton4"
+            android:layout_marginEnd="29dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentEnd="true"/>
+
+
+    </RelativeLayout>
+
+
+</LinearLayout>
+<!-- From: file:/C:/Users/AFITYA/Documents/Stockapp/ParseStarterProject/src/main/res/layout/activity_various_stock_views.xml -->

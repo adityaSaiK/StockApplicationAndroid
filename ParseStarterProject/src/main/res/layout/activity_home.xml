@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_home"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.parse.starter.Home"
+    android:background="@drawable/backgrnd">
+
+    <Button
+        android:text="Feedback"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="82dp"
+        android:id="@+id/button9"
+        android:padding="10dp"
+        android:onClick="moveToFeedbackFragment"
+        android:background="@drawable/home_btns"
+
+        android:layout_below="@+id/button8"
+        android:layout_alignStart="@+id/button8"/>
+
+    <Button
+        android:text="About the app"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:id="@+id/button8"
+        android:padding="10dp"
+        android:onClick="moveToAboutActivity"
+        android:background="@drawable/home_btns"
+        android:layout_below="@+id/button7"
+        android:layout_alignStart="@+id/button7"/>
+
+    <Button
+        android:text="Opinions"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="71dp"
+        android:id="@+id/button7"
+        android:padding="10dp"
+        android:onClick="moveToChatActivity"
+        android:background="@drawable/home_btns"
+        android:layout_below="@+id/button6"
+        android:layout_alignStart="@+id/button6"/>
+
+    <Button
+        android:text="Stocks"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="55dp"
+        android:id="@+id/button6"
+        android:padding="10dp"
+        android:onClick="moveToStockActivity"
+        android:background="@drawable/home_btns"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"/>
+</RelativeLayout>

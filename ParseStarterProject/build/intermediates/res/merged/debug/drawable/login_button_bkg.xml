@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:state_pressed="true">
+        <shape android:shape="rectangle" >
+            <corners android:radius="10dp" />
+            <solid android:color="@android:color/transparent" />
+            <stroke android:color="@android:color/black" android:width="1dp" />
+
+        </shape>
+    </item>
+
+    <item >
+        <shape android:shape="rectangle" >
+            <corners android:radius="20dp" />
+            <solid android:color="@android:color/holo_blue_light" />
+            <stroke android:color="@android:color/black" android:width="1dp" />
+        </shape>
+    </item>
+
+
+</selector><!-- From: file:/C:/Users/AFITYA/Documents/Stockapp/ParseStarterProject/src/main/res/drawable/login_button_bkg.xml -->
